@@ -4,6 +4,7 @@ body {
 
 .main-bg {
   height: max-content;
+  min-height: 100vh;
   background: rgb(255, 79, 167);
   background: linear-gradient(
     90deg,
