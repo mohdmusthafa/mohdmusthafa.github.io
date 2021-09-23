@@ -1,5 +1,5 @@
 <template>
-  <div class="resume mt-12">
+  <div class="resume mt-12 mb-12">
     <Header />
     <div class="flex justify-center align-center">
       <Profile />
