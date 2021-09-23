@@ -1,0 +1,42 @@
+body {
+  font-family: 'Poppins';
+}
+
+.main-bg {
+  background: rgb(255, 79, 167);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 79, 167, 1) 0%,
+    rgba(212, 140, 212, 1) 38%,
+    rgba(135, 235, 255, 1) 100%
+  );
+}
+
+.resume {
+  width: 60%;
+  height: 90vh;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.education-items:not(:first-child){
+  margin-top: 20px;
+}
+
+.career-item {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 10px;
+}
+
+.career-item:not(:first-child) {
+  margin-top: 10px;
+}
