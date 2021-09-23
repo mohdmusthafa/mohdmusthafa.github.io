@@ -1,14 +1,25 @@
 <template>
-  <div>
+  <div class="margin-flex-reset">
     <h1 class="uppercase text-xl text-primary font-medium">Career Summary</h1>
-      <div v-for="career in careers" :key="career.id" class="career-item">
-        <h2>{{ career.job_title }}</h2>
-        <div class="flex justify-between">
-          <h3 class="text-sm flex-grow">{{ career.company }}</h3>
-          <h3 class="text-xs">
-            {{ career.start.month }} {{ career.start.year }} -
-            {{ career.end.month }} {{ career.end.year }}
-          </h3>
+    <div v-for="(career, index) in careers" :key="index" class="career-item">
+      <h2>{{ career.job_title }}</h2>
+      <div class="flex justify-between">
+        <h3 class="text-sm flex-grow">{{ career.company }}</h3>
+        <h3 class="text-xs">
+          {{ career.start.month }} {{ career.start.year }} -
+          {{ career.end.month }} {{ career.end.year }}
+        </h3>
+      </div>
+      <div class="career-item-achievements">
+          <ul class="list-disc list-inside mt-2">
+            <li
+              v-for="achievement in career.achievements"
+              :key="achievement"
+              class="text-sm"
+            >
+              {{ achievement }}
+            </li>
+          </ul>
         </div>
     </div>
   </div>
@@ -17,10 +28,27 @@
 <script>
 export default {
   data() {
+      const date = new Date();
     return {
       careers: [
+          {
+          job_title: 'Technology Consultant',
+          company: 'Emvigo Technologies',
+          start: {
+            month: 'Nov',
+            year: 2020,
+          },
+          end: {
+            month: date.toLocaleString('default', { month: 'short' }),
+            year: date.getFullYear()
+          },
+          achievements: [
+            'Add 1',
+            'Add 2',
+            'Add 3',
+          ],
+        },
         {
-          id: 1,
           job_title: 'MERN Stack Developer',
           company: 'Packapeer',
           start: {
@@ -38,7 +66,6 @@ export default {
           ],
         },
         {
-          id: 2,
           job_title: 'Freelance Web Developer',
           company: 'Freelancer',
           start: {

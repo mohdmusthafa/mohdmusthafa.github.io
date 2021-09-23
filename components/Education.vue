@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="margin-flex-reset">
     <h1 class="uppercase text-xl text-primary font-medium">Education</h1>
-    <div class="uppercase">
+    <div class="glass mt-2">
       <div v-for="education in educations" :key="education.id" class="education-items">
         <h2>{{ education.name }}</h2>
         <h3 class="text-xs">
