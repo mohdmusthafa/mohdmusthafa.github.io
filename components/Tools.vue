@@ -28,6 +28,9 @@ export default {
                 'Redis',
                 'AWS',
                 'Docker/Kubernetes',
+                'Event Driven Architecture',
+                'Micro Services',
+                'System Design',
             ]
         }
     },
