@@ -3,7 +3,7 @@
     <h1 class="uppercase text-xl text-primary font-medium text-center">
       Contact
     </h1>
-    <div class="flex justify-center w-100">
+    <div class="flex justify-center w-100 contact-section">
       <div class="glass contact-flex-reset">
         <p class="text-sm p-3 leading-relaxed">
           Phone: +917902559756 <br />

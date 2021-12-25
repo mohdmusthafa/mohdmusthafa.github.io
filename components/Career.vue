@@ -1,7 +1,7 @@
 <template>
   <div class="margin-flex-reset">
     <h1 class="uppercase text-xl text-primary font-medium">Career Summary</h1>
-    <div v-for="(career, index) in careers" :key="index" class="career-item">
+    <div v-for="(career, index) in careers" :key="index" class="career-item mob-w-75">
       <h2>{{ career.job_title }}</h2>
       <div class="flex justify-between">
         <h3 class="text-sm flex-grow">{{ career.company }}</h3>

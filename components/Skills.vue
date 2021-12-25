@@ -1,5 +1,5 @@
 <template>
-  <div class="glass-1">
+  <div class="glass-1 mob-w-75">
       <h1 class="glass-1-title">Skills</h1>
       <h2 class="text-sm">{{ coding_languages[0] }}, {{ coding_languages[1] }} and {{ coding_languages[2] }}</h2>
       <div class="glass-1-description">

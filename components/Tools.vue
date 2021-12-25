@@ -1,6 +1,6 @@
 <template>
 <div>
-  <div class="glass-1 mt-2">
+  <div class="glass-1 mob-w-75 mt-2">
       <h1 class="glass-1-title">Tools</h1>
       <h2 class="text-sm">{{ tools[0] }}, {{ tools[1] }} and {{ tools[2] }}</h2>
       <div class="glass-1-description">
