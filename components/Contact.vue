@@ -16,13 +16,13 @@
       <div
         class="glass flex justify-around h-max-content contact-flex-reset w-4/5"
       >
-        <a href="https://github.com/mohdmusthafa">
+        <a href="https://github.com/mohdmusthafa" target="_blank">
           <img src="/github.svg" class="icon" alt="Github" />
         </a>
-        <a href="https://www.linkedin.com/in/mohdmusthafa">
+        <a href="https://www.linkedin.com/in/mohdmusthafa" target="_blank">
           <img src="/linkedin.svg" class="icon" alt="LinkedIn" />
         </a>
-        <a href="https://instagram.com/mohdmusthafa">
+        <a href="https://instagram.com/crystal_trucker" target="_blank">
           <img src="/instagram.svg" class="icon" alt="Instagram" />
         </a>
       </div>
