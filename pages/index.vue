@@ -7,5 +7,10 @@
 </template>
 
 <script>
-export default {}
+export default {
+  mounted() {
+    // eslint-disable-next-line no-console
+    console.log(`🏡 Yeah, I live here. 🧑‍💻`)
+  }
+}
 </script>
