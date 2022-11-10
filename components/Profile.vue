@@ -2,9 +2,7 @@
   <div class="margin-flex-reset">
     <h1 class="uppercase text-xl text-primary font-medium">Profile</h1>
     <p class="text-sm mob-w-75 glass p-3 mt-2">
-      Hi, I am Mohammed Musthafa. I spend my days crafting websites and learning
-      new things. I've spend my last 4 years researching the latest web
-      technologies and exploring the possibilites of blockchain.
+      I am a software developer with 4 years of experience I can plan, develop, deploy and scale software products while helping others and growing together.
     </p>
   </div>
 </template>

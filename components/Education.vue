@@ -23,8 +23,23 @@ export default {
   data() {
     return {
       educations: [
-        {
+      {
           id: 1,
+          name: 'Indira Gandhi National Open University',
+          start: {
+            year: 2022,
+            month: 'January',
+          },
+          end: {
+            year: 2025,
+            month: 'January',
+          },
+          achievements: [
+            'Bachelor of Computer Applications (BCA)'
+          ],
+        },
+        {
+          id: 2,
           name: 'Kalladi Higher Secondary School',
           start: {
             year: 2018,
@@ -38,20 +53,7 @@ export default {
             'Studied Computer Science',
             'Built a voting application for the school election',
           ],
-        },
-        {
-          id: 2,
-          name: 'Kalladi High School',
-          start: {
-            year: 2015,
-            month: 'June',
-          },
-          end: {
-            year: 2018,
-            month: 'March',
-          },
-          achievements: ['GPA: 3.26'],
-        },
+        }
       ],
     }
   },

@@ -43,9 +43,10 @@ export default {
             year: date.getFullYear()
           },
           achievements: [
-            'Add 1',
-            'Add 2',
-            'Add 3',
+            'Developed APIs using both Node.js and Python.',
+            'Sprint planning and code review.',
+            'Cloud architecture and database design.',
+            'Wrote Technical, Functional and API documentation.',
           ],
         },
         {
@@ -60,7 +61,7 @@ export default {
             year: 2020,
           },
           achievements: [
-            'Conducted planning, designing, prototyping, and launched en entire web application as team and individual',
+            'Conducted planning, designing, prototyping, and launched an entire web application as team and individual',
             'Designed databases and API Documentations',
             'Discovered patches for API Servers and achieved a perfomance boost of 60%',
           ],
