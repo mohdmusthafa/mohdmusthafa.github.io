@@ -20,9 +20,6 @@
         <a href="https://www.linkedin.com/in/mohdmusthafa" target="_blank">
           <img src="/linkedin.svg" class="icon" alt="LinkedIn" />
         </a>
-        <a href="https://www.instagram.com/musthuuh/" target="_blank">
-          <img src="/instagram.svg" class="icon" alt="Instagram" />
-        </a>
       </div>
     </div>
   </div>
